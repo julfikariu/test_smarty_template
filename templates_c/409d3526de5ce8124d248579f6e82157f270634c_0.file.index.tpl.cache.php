@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.42, created on 2024-06-25 15:53:01
+/* Smarty version 3.1.42, created on 2024-07-20 15:30:11
   from 'C:\laragon\www\a_smarty_test\templates\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.42',
-  'unifunc' => 'content_667ae7ddd882d6_66589603',
+  'unifunc' => 'content_669bd8035af515_79396841',
   'has_nocache_code' => true,
   'file_dependency' => 
   array (
     '409d3526de5ce8124d248579f6e82157f270634c' => 
     array (
       0 => 'C:\\laragon\\www\\a_smarty_test\\templates\\index.tpl',
-      1 => 1718567473,
+      1 => 1719373711,
       2 => 'file',
     ),
   ),
@@ -22,9 +22,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_667ae7ddd882d6_66589603 (Smarty_Internal_Template $_smarty_tpl) {
+function content_669bd8035af515_79396841 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\laragon\\www\\a_smarty_test\\libs\\plugins\\modifier.capitalize.php','function'=>'smarty_modifier_capitalize',),1=>array('file'=>'C:\\laragon\\www\\a_smarty_test\\libs\\plugins\\modifier.date_format.php','function'=>'smarty_modifier_date_format',),2=>array('file'=>'C:\\laragon\\www\\a_smarty_test\\libs\\plugins\\function.html_select_date.php','function'=>'smarty_function_html_select_date',),3=>array('file'=>'C:\\laragon\\www\\a_smarty_test\\libs\\plugins\\function.html_select_time.php','function'=>'smarty_function_html_select_time',),4=>array('file'=>'C:\\laragon\\www\\a_smarty_test\\libs\\plugins\\function.html_options.php','function'=>'smarty_function_html_options',),));
-$_smarty_tpl->compiled->nocache_hash = '1170016960667ae7dd718970_87796513';
+$_smarty_tpl->compiled->nocache_hash = '1221556741669bd800307533_62618736';
 $_smarty_tpl->smarty->ext->configLoad->_loadConfigFile($_smarty_tpl, "test.conf", "setup", 0);
 ?>
 
@@ -44,15 +44,15 @@ $_smarty_tpl->smarty->ext->configLoad->_loadConfigFile($_smarty_tpl, "test.conf"
     Example of accessing server environment variable SERVER_NAME: <?php echo $_SERVER['SERVER_NAME'];?>
 
 
-    The value of {$Name} is <b><?php echo '/*%%SmartyNocache:1170016960667ae7dd718970_87796513%%*/<?php echo $_smarty_tpl->tpl_vars[\'Name\']->value;?>
-/*/%%SmartyNocache:1170016960667ae7dd718970_87796513%%*/';?>
+    The value of {$Name} is <b><?php echo '/*%%SmartyNocache:1221556741669bd800307533_62618736%%*/<?php echo $_smarty_tpl->tpl_vars[\'Name\']->value;?>
+/*/%%SmartyNocache:1221556741669bd800307533_62618736%%*/';?>
 </b>
 
 variable modifier example of {$Name|upper}
 
-<b><?php echo '/*%%SmartyNocache:1170016960667ae7dd718970_87796513%%*/<?php echo mb_strtoupper($_smarty_tpl->tpl_vars[\'Name\']->value, \'UTF-8\');?>
-/*/%%SmartyNocache:1170016960667ae7dd718970_87796513%%*/';?>
-</b>
+<h1><b><?php echo '/*%%SmartyNocache:1221556741669bd800307533_62618736%%*/<?php echo mb_strtoupper($_smarty_tpl->tpl_vars[\'Name\']->value, \'UTF-8\');?>
+/*/%%SmartyNocache:1221556741669bd800307533_62618736%%*/';?>
+</b></h1>
 
 
 An example of a section loop:

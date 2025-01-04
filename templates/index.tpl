@@ -17,7 +17,7 @@
 
 variable modifier example of {ldelim}$Name|upper{rdelim}
 
-<b>{$Name|upper}</b>
+<h1><b>{$Name|upper}</b></h1>
 
 
 An example of a section loop:
